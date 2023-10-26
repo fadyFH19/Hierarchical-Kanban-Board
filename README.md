@@ -48,12 +48,6 @@ The Hierarchy KanBan Board is a web application developed using Flask, which all
 - Organize tasks into a hierarchy with parent-child relationships.
 - Task statuses (e.g., "todo," "doing," "done").
 
-### Screenshots <a name="screenshots"></a>
-<img width="1440" alt="Screenshot 2023-10-26 at 15 13 11" src="https://github.com/fadyFH194/Nourhelp/assets/131557935/31031325-b5ea-4fed-891c-c392edc0d51a">
-<img width="1440" alt="Screenshot 2023-10-26 at 15 13 35" src="https://github.com/fadyFH194/Nourhelp/assets/131557935/810122a8-f64c-4951-997e-8035b7bc6698">
-<img width="1440" alt="Screenshot 2023-10-26 at 15 14 00" src="https://github.com/fadyFH194/Nourhelp/assets/131557935/1d072da1-3e85-41c7-ab9c-617a1eb1a8e5">
-<img width="1440" alt="Screenshot 2023-10-26 at 15 14 13" src="https://github.com/fadyFH194/Nourhelp/assets/131557935/76dd5576-8334-49ef-b1bb-7a06a4281b88">
-
 ### Contributing <a name="contributing"></a>
 If you'd like to contribute to this project, please follow these steps:
 1. Fork the project on GitHub.
