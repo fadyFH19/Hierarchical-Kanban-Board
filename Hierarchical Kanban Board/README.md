@@ -53,7 +53,7 @@ Thank you for your contributions!
 
 Feel free to contact the project maintainer for any questions or issues.
 
-**Maintainer:** [Fady Hanna]([https://github.com/your-username](https://github.com/fadyFH194))
+**Maintainer:** [Fady Hanna](https://github.com/fadyFH194)
 
 **Project Repository:** [Repo](https://github.com/fadyFH19/Hierarchical-Kanban-Board)
 
