@@ -1,0 +1,42 @@
+{% extends 'base.html' %}
+
+{% block head %}
+<link rel="stylesheet" href="{{ url_for('static',filename='register.css') }}">
+{% endblock %}
+
+<title>{% block title %}Registration page {% endblock %}</title>
+
+
+{% block content %}
+
+  <div class="container">
+      <div id="welcomeSection">
+        <h1>KANBAN BOARD</h1>
+      </div> 
+    <div id="loginSection">
+      <h1>Register</h1>
+      <p>Please fill in this form to create an account.</p>
+      <hr>
+      <form method="POST" action="/register">
+        <input type="text" placeholder="Enter Username" name="username" required>
+
+        <input type="password" placeholder="Enter Password" name="password" required>
+
+        <input type="password" placeholder="Repeat Password" name="repeat" required>
+        <hr>
+        <input class="btn btn-default" type="submit" value="Register">
+      </form>
+      
+    <div class="signin">
+      <p>Already have an account ? 
+        <a href="http://127.0.0.1:5000/login">Log in</a></p>
+    </div>
+
+    </div>
+  </div>
+
+{% if error %}
+  <p class="error"><strong>Error:</strong> {{ error }}
+{% endif %}
+
+{% endblock %}

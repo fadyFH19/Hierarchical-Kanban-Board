@@ -1,0 +1,165 @@
+body{
+
+    margin: 0px;
+    padding: 0px;
+    background: #D3D3D3;
+    height:100vh;
+  
+  }
+  h1{
+  
+    color:#28282B;
+    text-align: center;
+    font-family: 'Raleway';
+    font-weight: normal;
+    margin: 2em auto 0px;
+  
+  }
+
+  
+.container{
+
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
+  height:80vh;
+
+}
+
+#welcomeSection{
+
+  height:65%;
+
+}
+
+#welcomeSection p{
+
+  font-size: 1.2rem;
+  margin-top: 3rem;
+
+}
+  
+  .form{
+  
+    width: 400px;
+    height: 230px;
+    margin: 0px auto;
+    padding-top: 20px;
+  
+  }
+  
+  input[type="text"]{
+  
+    display: block;
+    width: 309px;
+    height: 3rem;
+    margin: 15px auto;
+    background:none;
+    border:none;
+    color:#28282B;  
+    font-size: 1.1rem;
+    padding:0.65rem;
+    border-radius: 20px;
+    box-shadow:  inset 2px 2px 5px #BABECC, inset -5px -5px 10px #FFF;
+    transition:all 0.2s;
+    outline:none;
+  
+  }
+
+  input[type="text"]:active{
+
+    box-shadow: inset 1px 1px 2px #babecc, inset -1px -1px 2px #fff;
+
+  }
+
+  input[type="text"]:focus{
+
+    box-shadow: inset 1px 1px 2px #babecc, inset -1px -1px 2px #fff;
+
+  }
+
+  input[type="password"]{
+  
+    display: block;
+    width: 309px;
+    height: 3rem;
+    margin: 15px auto;
+    background:none;
+    color:#28282B;
+    border:none;
+    outline:none;
+    padding:0.8rem;
+    border-radius: 20px;
+    box-shadow:  inset 2px 2px 5px #BABECC, inset -5px -5px 10px #FFF;
+    transition:all 0.2s;
+    font-size: 1.1rem;
+  
+  }
+
+  input[type="password"]:active{
+
+    box-shadow: inset 1px 1px 2px #babecc, inset -1px -1px 2px #fff;
+
+  }
+
+  input[type="password"]:focus{
+
+    box-shadow: inset 1px 1px 2px #babecc, inset -1px -1px 2px #fff;
+
+  }
+  
+  input[type="submit"]{
+  
+    display: block;
+    background:none;
+    width: 115px;
+    padding: 7px;
+    cursor: pointer;
+    color:#28282B;
+    border:none;
+    outline:none;
+    margin:15px auto;
+    font-size: 17px;
+    transition: all 0.3s ease;
+    border-radius: 20px;
+    box-shadow:  inset 2px 2px 5px #BABECC, inset -5px -5px 10px #FFF;
+
+  
+  }
+  
+  input[type="submit"]:hover{
+  
+    box-shadow: -2px -2px 5px #fff, 2px 2px 5px #babecc;
+  
+  }
+  
+  ::placeholder{
+  
+    color:#28282B;
+    opacity: 0.7;
+  
+  }
+
+  .signin p{
+
+    text-align: center;
+    font-family: 'Raleway';
+    color: #28282B;
+    display: block;
+    margin: 15px auto;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    font-size: 15px;
+  
+  }
+  
+  .signin a{
+  
+    text-decoration: none;
+    color:#28282B;
+    padding:0.5rem;
+    border:#28282B 2px solid;
+    border-radius: 10px;
+  
+  }
+  
