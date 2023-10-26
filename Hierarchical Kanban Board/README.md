@@ -9,22 +9,28 @@ https://www.loom.com/share/75f6d63974e44767a07d4b5d5345dae4?t=246&sid=f741ad1b-f
 The Hierarchy KanBan Board is a web application developed using Flask, which allows users to manage tasks in a hierarchical manner. It provides features for user registration, login, and task management. Users can create, update, and delete tasks, and organize them into different status categories (e.g., "todo," "doing," "done"). Tasks can also have parent-child relationships, creating a hierarchy for better organization.
 
 ### Installation <a name="installation"></a>
-1.Clone the repository to your local machine:
+1. Clone the repository to your local machine:
+   
    ```git clone https://github.com/fadyFH19/Hierarchical-Kanban-Board```
    
-2. Change into the project directory:
+3. Change into the project directory:
+   
    ```cd Hierarchical Kanban Board```
    
-4. Create a virtual environment:
+5. Create a virtual environment:
+   
    ```python -m venv venv```
    
-6. Activate the virtual environment:
+7. Activate the virtual environment:
+   
    ```source venv/bin/activate```
    
-8. Install the required packages:
+9. Install the required packages:
+    
    ```pip install -r requirements.txt```
    
-10. Run the app:
+11. Run the app:
+    
     ```python3 main.py```
 
 ### Usage <a name="usage"></a>
