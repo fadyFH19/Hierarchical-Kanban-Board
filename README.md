@@ -13,8 +13,9 @@ The Hierarchy KanBan Board is a web application developed using Flask, which all
    
    ```git clone https://github.com/fadyFH19/Hierarchical-Kanban-Board```
    
-3. Change into the project directory:
+3. Change into the project directory (twice):
    
+   ```cd Hierarchical-Kanban-Board```
    ```cd Hierarchical-Kanban-Board```
    
 5. Create a virtual environment:
