@@ -1,0 +1,415 @@
+
+header {
+
+  padding: 30px;
+  font-size: 35px;
+  color:  #28282B;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.logoutSection{
+  
+  display: flex;
+  align-items: center;
+
+}
+.logoutButton, .summaryButton{
+
+  color: #28282B; 
+  border-radius: 3px;
+  font-size: 1.4rem;
+  border:none;
+  outline:none;
+  background: none;
+  transition:all 0.2s;
+
+}
+
+.logoutButton:hover{
+
+  background:#28282B;
+  color:#e0e0e0;
+
+}
+
+.summaryButton:hover{
+
+  background:#28282B;
+  color:#e0e0e0;
+
+}
+
+.cardTitle{
+  font-family: 'Raleway';
+  font-weight:700;
+
+}
+
+section { 
+  
+  padding: 1rem;
+  text-align: center;
+  
+}
+li {
+
+    list-style-type: none;
+    width: 250px;
+
+}
+
+#boardName{
+
+  font-family: 'Raleway';
+  font-weight: 700;
+  font-size: 1.6rem;
+
+}
+
+body { 
+
+  background: #D3D3D3;
+  font-family: 'Raleway', sans-serif;
+  padding: 10px;
+  text-align: center;
+  color: #28282B;
+
+}
+
+h2 {
+
+  margin:5px;
+  color:#28282B;
+  font-family: 'Righteous';
+
+}
+.actionContainer {
+
+  float:left;
+  clear: right;
+  margin:1.0rem;
+  border:none;
+  padding:0.5rem;
+  border-radius: 20px;
+  background: #e0e0e0;
+  box-shadow:  20px 20px 60px #bebebe,
+               -20px -20px 60px #ffffff;
+
+}
+.sortable { 
+
+  list-style-type: none;
+  margin:0; 
+  padding:2px; 
+  min-height:3rem; 
+  border-radius: 5px;
+
+}
+.sortable li { 
+
+  margin: 3px 3px 3px 3px;
+  padding: 0.4em;
+  padding-left: 1.5em;
+  height:35px;
+
+}
+
+.optionSection h2{
+
+  font-family: 'Raleway';
+
+}
+
+.optionSection{
+
+  margin-bottom: 1rem;
+  height:10vh;
+  width:100vw;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+
+}
+
+.optionSection form{
+
+  display: flex;
+  justify-content:center;
+  align-items: center;
+
+}
+
+.innerContainer{
+
+  width:60%;
+
+}
+
+#addText{
+
+  font-size: 1.1rem;
+  width: 50%;
+  margin:0.5rem;
+  background: none;
+  border: none;
+  color: #28282B;
+  outline:none;
+  padding:0.65rem;
+  border-radius: 20px;
+  box-shadow:  inset 2px 2px 5px #BABECC, inset -5px -5px 10px #FFF;
+  transition:all 0.2s;
+
+}
+
+#addText:active{
+
+  box-shadow: inset 1px 1px 2px #babecc, inset -1px -1px 2px #fff;
+
+}
+
+#addText:focus{
+
+  box-shadow:  inset 1px 1px 2px #babecc, inset -1px -1px 2px #fff;
+
+}
+
+.sortable li span {
+
+    position: absolute;
+    margin-left: -1.3em;
+
+  }
+  
+.deleteButton{
+
+  background-color: #f8f5f2;
+  border-radius: 3px;
+  border:none;
+  margin:0.5rem;
+  padding:0.4rem;
+  transition:all 0.2s;
+  
+}
+
+.updateButton:hover{
+
+  color:#e0e0e0;
+  background: #28282B;
+
+}
+
+
+.deleteButton:hover{
+
+  color:#e0e0e0;
+  background: #28282B;
+
+}
+
+.error{
+
+  color:#28282B;
+  font-size: 1.2rem;
+
+}
+
+select{
+
+  font-size:1rem;
+  background:none;  
+  color: #28282B;
+  width: 15%; 
+  margin-right:0.5rem;
+  outline:none;
+  padding:0.8rem;
+  border: none;
+  transition:all 0.2s;
+  border-radius: 20px;
+  box-shadow:  inset 2px 2px 5px #BABECC, inset -5px -5px 10px #FFF;
+
+}
+
+select:hover{
+
+  box-shadow: -2px -2px 5px #fff, 2px 2px 5px #babecc;
+
+}
+
+select option{
+
+  background-color: #28282B;
+  color: #fff;
+
+}
+
+.innerContainer input[type=submit]{
+
+  width:15%; 
+  font-size:2rem; 
+  background: none; 
+  border:none;
+  border-radius: 20px;
+  box-shadow:  inset 2px 2px 5px #BABECC, inset -5px -5px 10px #FFF;
+  transition: all 0.2s ease-in-out;
+  padding:0.2rem;
+
+}
+
+.innerContainer input[type=submit]:hover{
+
+  box-shadow: -2px -2px 5px #fff, 2px 2px 5px #babecc;
+
+}
+
+#deadlineCatch{
+
+  display:none;
+  margin:0.5rem;
+  font-size: 1.3rem;
+  background: none;
+  border:none;
+  border-radius: 20px;
+  padding:0.6rem;
+  box-shadow:  inset 2px 2px 5px #BABECC, inset -5px -5px 10px #FFF;
+  color: #28282B;
+  outline:none;
+  transition:all 0.2s;
+
+}
+
+#deadlineCatch:active{
+
+  box-shadow: inset 1px 1px 2px #babecc, inset -1px -1px 2px #fff;
+
+}
+
+#deadlineCatch:focus{
+
+  box-shadow: inset 1px 1px 2px #babecc, inset -1px -1px 2px #fff;
+
+}
+
+.taskNotif, .deadlineNotif{
+
+  font-size: 1rem;
+
+}
+
+.deadlineNotif{
+
+  background:#babecc;
+  border-radius: 20px;
+
+}
+
+
+.card-container::after {
+  content: "";
+  display: table;
+  clear: both;
+  
+}
+
+
+
+.task-card {
+  border: 1px solid #ccc;
+  margin: 10px;
+  padding: 10px;
+  display: inline-block;
+  vertical-align: top;
+  width: 200px; /* Adjust the width as needed */
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  background-color: #fff;
+  margin-left: 100px;
+}
+
+
+
+
+.card-container {
+  width: 80%;  /* or any desired width */
+  margin: 0 auto;  /* centering the card if it's less than 100% width */
+  /* ... other styles ... */
+  margin-left: 220px;
+}
+
+
+.task-list,
+.subtask-list {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.subtask-list {
+  margin-left: 20px;
+}
+
+.task-item {
+  width: 800px;  /* Or whatever width that suits your design */
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  position: relative;
+  padding-left: 30px;  /* Adjusted space for indent */
+  text-align: left;  /* Add this line */
+}
+
+.task-item:hover::after {
+  content: attr(data-full-text);
+  position: absolute;
+  background-color: #f9f9f9;
+  padding: 4px;
+  border: 1px solid #ddd;
+  top: 0;
+  left: 100%;
+  white-space: normal;
+  width: 300px;
+  z-index: 2;
+}
+
+
+.actionContainer {
+  width: 800px;  /* Adjust width as needed */
+  /* ... other styles ... */
+}
+
+/* Edit Button CSS */
+.edit-link {
+  display: inline-block;
+  padding: 8px 12px;
+  color: #e0e0e0;
+  background-color: #28282B;
+  border-radius: 20px;
+  text-decoration: none;
+  transition: all 0.2s ease-in-out;
+  font-family: 'Raleway', sans-serif;
+  font-size: 14px;
+  margin-left: 10px; /* Adds a little space between the task and the button */
+}
+
+.edit-link:hover {
+  background-color: #e0e0e0;
+  color: #28282B;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.edit-link:active {
+  transform: scale(0.95);
+}
+
+/* Collapse/Expand Button CSS */
+.expand-button {
+display: inline-block;
+padding: 8px 12px;
+color: #e0e0e0;
+background-color: #28282B;
+border-radius: 20px;
+text-decoration: none;
+font-family: 'Raleway', sans-serif;
+font-size: 14px;
+margin-left: 10px; /* Adds a little space between the task and the button */
+}

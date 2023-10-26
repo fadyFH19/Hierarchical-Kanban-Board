@@ -1,0 +1,5 @@
+flask
+sqlalchemy
+flask_sqlalchemy
+flask_login
+werkzeug==2.3.7
