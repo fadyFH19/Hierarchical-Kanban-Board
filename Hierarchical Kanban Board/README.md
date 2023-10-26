@@ -11,15 +11,20 @@ The Hierarchy KanBan Board is a web application developed using Flask, which all
 ### Installation <a name="installation"></a>
 1.Clone the repository to your local machine:
    ```git clone https://github.com/fadyFH19/Hierarchical-Kanban-Board```
+   
 2. Change into the project directory:
    ```cd Hierarchical Kanban Board```
-3. Create a virtual environment:
+   
+4. Create a virtual environment:
    ```python -m venv venv```
-4. Activate the virtual environment:
+   
+6. Activate the virtual environment:
    ```source venv/bin/activate```
-5. Install the required packages:
+   
+8. Install the required packages:
    ```pip install -r requirements.txt```
-6. Run the app:
+   
+10. Run the app:
     ```python3 main.py```
 
 ### Usage <a name="usage"></a>
